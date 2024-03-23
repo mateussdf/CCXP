@@ -1,0 +1,94 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+header{
+    background-color: #FFD900;
+    padding: 15px;
+}
+
+#logoccxp{
+    margin-left: 20px;
+}
+
+#reviva{
+    color: #F3C61F;
+    font-size: 55px;
+}
+
+#periodo{
+    color: #FFFFFF;
+}
+
+#paragrafo{
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+#countDown{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #E33881;
+}
+
+.conteudoCentral{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    text-align: center;
+}
+
+
+.textoCentral{
+    text-align: center;
+    background-color: #514988;
+    width: 650px;
+}
+
+
+.contagem{
+    display: grid;
+    grid-auto-flow:column;
+    columns: auto;
+    align-items: center;
+    color: #514988;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#compraIngresso{
+    margin: 20px;
+}
+
+.diasDisponiveis{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px;
+}
+
+.ingressos{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.botao{
+margin: auto;
+}
+
+button{
+    width: 496px;
+    height: 100px;
+    background-color: #514988;
+    border: none;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+button:hover{
+    color: #F3C61F;
+    cursor: pointer;
+}
